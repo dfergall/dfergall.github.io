@@ -1,0 +1,140 @@
+/* https://developer.apple.com/design/human-interface-guidelines/ios/visual-design/color/ */
+:root {
+	--color1: rgb(0, 122, 255); /* systemBlue */
+	--color2: rgb(52, 199, 89); /* systemGreen */
+	--color3: rgb(88, 86, 214); /* systemIndigo */
+	--color4: rgb(255, 149, 0); /* systemOrange */
+	--color5: rgb(255, 45, 85); /* systemPink */
+	--colorgrey1: rgb(108, 108, 112);
+	--colorgrey2: rgb(142, 142, 147);
+	--colorgrey3: rgb(174, 174, 178);
+	--colorblack: rgb(36, 36, 38);
+	
+	--link: #00bbbb;
+	--visited: fuchsia;
+	--font-family: -apple-system, BlinkMacSystemFont, sans-serif;
+	--smallest: 12px;
+	--small: 16px;
+	--medium: 20px;
+	--big: 24px;
+	--biggest: 28px;
+}
+
+a {
+	color: var(--link);
+	font-family: var(--font-family);
+	margin: auto;
+	width: 50%;
+	word-wrap: break-word; /* Removes long word overflow */
+}z
+
+a:visited {
+	color: var(--visited);
+}
+
+#top {
+	background-color: rgb(235, 235, 240);
+	font-family: var(--font-family);
+	font-size: var(--biggest);
+	padding: 2%;
+	text-align: center;
+	margin: 16px;
+}
+
+body {
+	background-color: rgb(235, 235, 240);
+	color: #000000;
+	font-family: var(--font-family);
+	text-align: justify;
+	padding: 2%;
+	margin: auto;
+}
+
+hr {
+	border: 1px solid var(--colorgrey1);
+	margin: 8px 0px;
+}
+
+iframe {
+    width: 10vw;
+}
+
+.media {
+	display: block;
+	margin: auto;
+	padding: 16px;
+	zoom: 50%;
+}
+
+.section {
+	font-family: var(--font-family);
+	background-color: #ffffff;
+	margin: 2% 0%;
+	padding: 2%;
+}
+
+.section_title {
+	color: var(--color1);
+    font-size: var(--medium);
+	margin: 16px 0px;
+	font-weight: 600;
+}
+
+.section_text {
+	color: var(--colorblack);
+    font-size: var(--smallest);
+	margin: 8px 0px;
+	font-weight: 600;
+}
+
+.need {
+	font-family: var(--font-family);
+	margin: auto;
+	font-weight: 600;
+	background-color: #ffffff;
+	margin: 5% 0%;
+}
+
+.need_title.main {
+	
+	margin: 16px 0px;
+	color: var(--color1);
+	font-size: var(--medium);
+}
+
+.need_title {
+	color: var(--color5);
+	font-size: var(--small);
+}
+
+.need_value.main {
+	color: var(--colorblack);
+}
+
+.need_value {
+	color: var(--colorblack);
+	font-size: var(--smallest);
+}
+
+.subsection {
+	margin: 8px 0px;
+}
+
+.subsection_title {
+	color: var(--color5);
+	font-size: var(--small);
+}
+
+.subsection_text {
+	color: var(--colorblack);
+	font-size: var(--smallest);
+	font-weight: 600;
+}
+
+#Referencias {
+	color: var(--coloblack);
+	font-size: var(--smallest);
+	font-family: var(--font-family);
+	font-weight: 600;
+}
+/* https://material.io/design/color/dark-theme.html#properties */

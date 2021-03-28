@@ -1,0 +1,88 @@
+/* https://mybrandnewlogo.com/es/generador-de-paleta-de-colores */
+:root {
+	--color1: #4c091d;
+	--color2: #930a24;
+	--color3: #2083d8;
+	--color4: #e6e1ed;
+	--color5: #ffffff;
+	--font: Verdana;
+	--small: 16px;
+	--medium: 24px;
+	--big: 32px;
+}
+
+/* Links */
+#top {
+	margin: 16px 0px;
+	color: var(--color3);
+	font-family: var(--font);
+	font-size: var(--small);
+}
+
+a:visited {
+	color: fuchsia;
+	font-family: var(--font);
+	font-size: var(--small);
+}
+
+/* Body */
+/* Constrast > (4.5:1) */
+body {
+	background-color: var(--color4);
+	color: var(--color1);
+	font-size: 16px;
+	font-family: var(--font);
+	max-width: 768px;
+	margin: auto;
+	padding: 0px 16px;
+}
+
+.media {
+	display: block;
+	margin: auto;
+	padding: 16px;
+	min-width: 50%;
+	min-height: 100%;
+}
+
+.section {
+	font-family: var(--font);
+	margin: auto;
+}
+
+.section_title {
+	color: var(--color2);
+    font-size: 36px;
+}
+
+.section_text {
+	color: var(--color1);
+    font-size: 16px;
+	padding: 0px 16px;
+}
+
+.need {
+	font-family: var(--font);
+	margin: auto;
+}
+
+.need_title {
+	color: var(--color2);
+	font-size: 24px;
+	font-weight: bold;
+}
+
+.need_value {
+	color: var(--color1);
+	font-size: 16px;
+	padding: 0px 16px;
+}
+
+.subsection_title {
+	
+}
+
+.subsection_value {
+	
+}
+/* https://material.io/design/color/dark-theme.html#properties */
