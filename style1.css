@@ -41,10 +41,6 @@ a {
 	word-wrap: break-word; /* Removes long word overflow */
 }
 
-a:visited {
-	color: var(--white);
-}
-
 #top {
 	color: var(--complement0);
 	font-family: var(--font-family);
