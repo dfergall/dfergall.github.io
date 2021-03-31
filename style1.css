@@ -45,12 +45,12 @@ a {
 }
 
 a:visited {
-	color: var(--grey);
+	color: var(--lightgrey);
 	text-decoration: line-through; 
 }
 
 a:visited:hover {
-	color: var(--lightgrey);
+	color: var(--white);
 	text-decoration: line-through; 
 }
 
