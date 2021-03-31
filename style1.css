@@ -214,6 +214,10 @@ img {
 	font-weight: bold;
 }
 
+#Referencias a:visited {
+	color: var(--primary1);
+}
+
 ol {
 	padding: 6vmin;
 }
