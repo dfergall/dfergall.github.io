@@ -1,44 +1,59 @@
 /* https://developer.apple.com/design/human-interface-guidelines/ios/visual-design/color/ */
 :root {
-	--color1: rgb(0, 122, 255); /* systemBlue */
-	--color2: rgb(52, 199, 89); /* systemGreen */
-	--color3: rgb(88, 86, 214); /* systemIndigo */
-	--color4: rgb(255, 149, 0); /* systemOrange */
-	--color5: rgb(255, 45, 85); /* systemPink */
+	--darkBlue: rgb(0, 54, 221); /* systemBlue */
+	--darkGreen: rgb(36, 138, 61); /* systemGreen */
+	--darkIndigo: rgb(54, 52, 163); /* systemIndigo */
+	--darkOrange: rgb(201, 52, 0); /* systemOrange */
+	--darkYellow: rgb(178, 80, 0); /* systemYellow */
+	--lightBlue: rgb(64, 156, 255); /* systemBlue */
+	--lightGreen: rgb(48, 219, 91); /* systemGreen */
+	--lightIndigo: rgb(125, 122, 255); /* systemIndigo */
+	--lightOrange: rgb(255, 179, 64); /* systemOrange */
+	--lightYellow: rgb(255, 212, 38); /* systemYellow */
 	--colorgrey1: rgb(108, 108, 112);
 	--colorgrey2: rgb(142, 142, 147);
 	--colorgrey3: rgb(174, 174, 178);
+	--colorgrey4: rgb(235, 235, 240);
 	--colorblack: rgb(36, 36, 38);
 	
-	--link: #00bbbb;
-	--visited: fuchsia;
 	--font-family: -apple-system, BlinkMacSystemFont, sans-serif;
-	--smallest: 12px;
-	--small: 16px;
-	--medium: 20px;
-	--big: 24px;
-	--biggest: 28px;
+	--smallest: max(1.3vmin, 12px);
+	--small: max(1.5vmin, 16px);
+	--medium: max(2vmin, 20px);
+	--big: max(2.5vmin, 24px);
+	--biggest: max(3vmin, 28px);
+}
+
+html {
+	background-color: var(--colorgrey1);
 }
 
 a {
-	color: var(--link);
+	color: var(--darkOrange);
 	font-family: var(--font-family);
+	font-weight: bold;
 	margin: auto;
-	width: 50%;
 	word-wrap: break-word; /* Removes long word overflow */
 }z
 
+a:hover {
+	color: var(--lightOrange);
+}
+
 a:visited {
-	color: var(--visited);
+	color: var(--colorgrey1);
+}
+
+a:visited:hover {
+	color: var(--colorgrey4);
 }
 
 #top {
 	background-color: rgb(235, 235, 240);
+	text-align: center;
 	font-family: var(--font-family);
 	font-size: var(--biggest);
-	padding: 2%;
-	text-align: center;
-	margin: 16px;
+	padding: max(2vmin, 8px);
 }
 
 body {
@@ -46,31 +61,31 @@ body {
 	color: #000000;
 	font-family: var(--font-family);
 	text-align: justify;
-	padding: 2%;
+	padding: max(2vmin, 8px);
 	margin: auto;
 }
 
 hr {
-	border: 1px solid var(--colorgrey1);
+	border: 2px solid var(--colorgrey1);
 	margin: 8px 0px;
 }
 
 iframe {
-    width: 10vw;
+	width: min(60vw, 854px); /* 480p */ 
+    height: min(33.75vw, 480px); /* 16:9 */
+	margin: auto;
 }
 
 .media {
 	display: block;
 	margin: auto;
-	padding: 16px;
-	zoom: 50%;
 }
 
 .section {
 	font-family: var(--font-family);
 	background-color: #ffffff;
-	margin: 2% 0%;
-	padding: 2%;
+	margin: min(2vmin, 8px);
+	padding: min(2vmin, 8px);
 }
 
 .section_title {
@@ -96,14 +111,13 @@ iframe {
 }
 
 .need_title.main {
-	
 	margin: 16px 0px;
 	color: var(--color1);
 	font-size: var(--medium);
 }
 
 .need_title {
-	color: var(--color5);
+	color: var(--color2);
 	font-size: var(--small);
 }
 
@@ -121,7 +135,7 @@ iframe {
 }
 
 .subsection_title {
-	color: var(--color5);
+	color: var(--color2);
 	font-size: var(--small);
 }
 
