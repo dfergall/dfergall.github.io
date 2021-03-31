@@ -219,7 +219,7 @@ img {
 }
 
 #Referencias a:visited:hover {
-	color: var(--primary1);
+	color: var(--lightgrey);
 }
 
 ol {
