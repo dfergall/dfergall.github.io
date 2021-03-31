@@ -31,6 +31,7 @@ nav {
 	margin: 16px;
 }
 
+
 a {
 	color: var(--complement0);
 	font-family: var(--font-family);
@@ -38,7 +39,27 @@ a {
 	font-weight: normal;
 	margin: auto;
 	width: 50%;
-	word-wrap: break-word; /* Removes long word overflow */
+	word-wrap: break-word; 
+}
+
+a {
+	color: var(--complement0);
+	font-family: var(--font-family);
+	font-size: max(1.3vmin, 12px);
+	font-weight: normal;
+	margin: auto;
+	width: 50%;
+	word-wrap: break-word; 
+}
+
+a:visited {
+	color: var(--primary1);
+	text-decoration: line-through; 
+}
+
+a:hover {
+     color: var(--complement1);
+     cursor: pointer;  
 }
 
 #top {
@@ -50,6 +71,10 @@ a {
 	padding: 16px;
 	text-align: center;
 	margin: 16px;
+}
+
+#top a {
+	font-size: max(1.3vmin, 18px);
 }
 
 body {
