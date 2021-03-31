@@ -35,17 +35,7 @@ nav {
 a {
 	color: var(--complement0);
 	font-family: var(--font-family);
-	font-size: max(2vmin, 18px);
-	font-weight: normal;
-	margin: auto;
-	width: 50%;
-	word-wrap: break-word; 
-}
-
-a {
-	color: var(--complement0);
-	font-family: var(--font-family);
-	font-size: max(1.3vmin, 12px);
+	font-size: max(2vmin, 12px);
 	font-weight: normal;
 	margin: auto;
 	width: 50%;
@@ -54,6 +44,11 @@ a {
 
 a:visited {
 	color: var(--primary1);
+	text-decoration: line-through; 
+}
+
+a:visited:hover {
+	color: var(--white);
 	text-decoration: line-through; 
 }
 
