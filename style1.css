@@ -12,6 +12,8 @@
   --complement3: #917800;
   --complement4: #6B5900;
   --white: #fff;
+  --grey: #555;
+  --lightgrey: #aaa;
   --black: #000;
   --font-family: Arial;
 }
@@ -43,12 +45,12 @@ a {
 }
 
 a:visited {
-	color: var(--primary1);
+	color: var(--grey);
 	text-decoration: line-through; 
 }
 
 a:visited:hover {
-	color: var(--white);
+	color: var(--lightgrey);
 	text-decoration: line-through; 
 }
 
