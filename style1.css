@@ -37,7 +37,7 @@ nav {
 a {
 	color: var(--complement0);
 	font-family: var(--font-family);
-	font-size: max(2vmin, 12px);
+	font-size: max(1.3vmin, 12px);
 	font-weight: normal;
 	margin: auto;
 	width: 50%;
@@ -206,4 +206,8 @@ img {
 	font-size: max(1.3vmin, 12px);
 	font-style: normal;
 	text-align: left;
+}
+
+#Referencias a{
+	font-size: max(1.3vmin, 12px);
 }
