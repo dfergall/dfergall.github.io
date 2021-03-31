@@ -218,6 +218,10 @@ img {
 	color: var(--primary1);
 }
 
+#Referencias a:visited:hover {
+	color: var(--primary1);
+}
+
 ol {
 	padding: 6vmin;
 }
