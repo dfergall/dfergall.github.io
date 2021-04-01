@@ -97,8 +97,8 @@ hr {
 	font-family: var(--font-family);
 	font-weight: normal;
 	margin: 20px;
-	border: 1px solid var(--gray0);
-	border-radius: 14px;
+	border: max(1px, 0.3vmin) solid var(--gray0);
+	border-radius: max(14px, 0.5vmin);
 }
 
 .need_title {
@@ -122,8 +122,8 @@ hr {
 	font-family: var(--font-family);
 	font-weight: normal;
 	margin: 20px;
-	border: max(1px, 0.5vmin) solid var(--gray0);
-	border-radius: max(14px, 1vmin);
+	border: max(1px, 0.3vmin) solid var(--gray0);
+	border-radius: max(14px, 0.5vmin);
 }
 
 .subsection_title {
