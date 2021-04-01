@@ -146,3 +146,13 @@ hr {
 li {
 	padding: 4px;
 }
+
+ol {
+	padding: 0px max(4vmin, 16px);
+}
+
+iframe {
+	width: min(60vw, 854px); /* 480p */ 
+    height: min(33.75vw, 480px); /* 16:9 */
+	margin: auto;
+}
