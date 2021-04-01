@@ -1,40 +1,58 @@
-/* https://mybrandnewlogo.com/es/generador-de-paleta-de-colores */
+/* twitter palette */
 :root {
-	--color1: #4c091d;
-	--color2: #930a24;
-	--color3: #2083d8;
-	--color4: #e6e1ed;
-	--color5: #ffffff;
-	--font: Verdana;
-	--small: 16px;
-	--medium: 24px;
-	--big: 32px;
+	--blue: #1DA1F2;
+	--black: #14171A;
+	--gray0: #657786;
+	--gray1: #AAB8C2;
+	--gray2: #E1E8ED;
+	--gray3: #F5F8FA;
+	--white: #FFFFFF;
+	--black: #000000;
+	--font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+
 }
 
-/* Links */
+html {
+	background-color: var(--black);
+	color: var(--gray2);
+	font-family: var(--font-family);
+	font-size: max(5vmin, 12px);
+}
+
 #top {
-	margin: 16px 0px;
-	color: var(--color3);
-	font-family: var(--font);
-	font-size: var(--small);
+	margin: max(3vh, 16px);
+	color: var(--gray2);
+	font-size: max(3vmin, 24px);
+	text-align: center;
+}
+
+a {
+	color: var(--gray3);
+	font-family: var(--font-family);
+	font-weight: bold;
+	text-decoration: none;
+	margin: auto;
+	word-wrap: break-word; /* Removes long word overflow */
+}
+
+a:hover {
+	color: var(--blue);
+	text-decoration: underline;
 }
 
 a:visited {
-	color: fuchsia;
-	font-family: var(--font);
-	font-size: var(--small);
+	color: var(--gray0);
+}
+
+a:visited:hover {
+	color: var(--blue);
+	text-decoration: underline;
 }
 
 /* Body */
-/* Constrast > (4.5:1) */
 body {
-	background-color: var(--color4);
-	color: var(--color1);
-	font-size: 16px;
+	color: var(--gray3);
 	font-family: var(--font);
-	max-width: 768px;
-	margin: auto;
-	padding: 0px 16px;
 }
 
 .media {
@@ -46,7 +64,7 @@ body {
 }
 
 .section {
-	font-family: var(--font);
+	border:grey;
 	margin: auto;
 }
 
@@ -85,4 +103,5 @@ body {
 .subsection_value {
 	
 }
+
 /* https://material.io/design/color/dark-theme.html#properties */
