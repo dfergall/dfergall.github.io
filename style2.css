@@ -3,53 +3,53 @@
 	--darkBlue: rgb(0, 54, 221); /* systemBlue */
 	--darkGreen: rgb(36, 138, 61); /* systemGreen */
 	--darkIndigo: rgb(54, 52, 163); /* systemIndigo */
-	--darkOrange: rgb(201, 52, 0); /* systemOrange */
+	--darkRed: rgb(215, 0, 21); /* systemRed */
 	--darkYellow: rgb(178, 80, 0); /* systemYellow */
 	--lightBlue: rgb(64, 156, 255); /* systemBlue */
 	--lightGreen: rgb(48, 219, 91); /* systemGreen */
 	--lightIndigo: rgb(125, 122, 255); /* systemIndigo */
-	--lightOrange: rgb(255, 179, 64); /* systemOrange */
+	--lightRed: rgb(255, 105, 97); /* systemRed */
 	--lightYellow: rgb(255, 212, 38); /* systemYellow */
 	--colorgrey1: rgb(108, 108, 112);
 	--colorgrey2: rgb(142, 142, 147);
 	--colorgrey3: rgb(174, 174, 178);
 	--colorgrey4: rgb(235, 235, 240);
-	--colorblack: rgb(36, 36, 38);
+	--colorBlack: rgb(36, 36, 38);
 	
 	--font-family: -apple-system, BlinkMacSystemFont, sans-serif;
 	--smallest: max(1.3vmin, 12px);
-	--small: max(1.5vmin, 16px);
-	--medium: max(2vmin, 20px);
-	--big: max(2.5vmin, 24px);
-	--biggest: max(3vmin, 28px);
+	--small: max(1.6vmin, 16px);
+	--medium: max(1.9vmin, 20px);
+	--big: max(2.2vmin, 24px);
+	--biggest: max(2.5vmin, 28px);
 }
 
 html {
-	background-color: var(--colorgrey1);
+	background-color: var(--colorgrey4);
 }
 
 a {
-	color: var(--darkOrange);
+	color: var(--darkBlue);
 	font-family: var(--font-family);
 	font-weight: bold;
 	margin: auto;
 	word-wrap: break-word; /* Removes long word overflow */
-}z
+}
 
 a:hover {
-	color: var(--lightOrange);
+	color: var(--lightBlue);
 }
 
 a:visited {
-	color: var(--colorgrey1);
+	color: var(--darkYellow);
 }
 
 a:visited:hover {
-	color: var(--colorgrey4);
+	color: var(--lightYellow);
 }
 
 #top {
-	background-color: rgb(235, 235, 240);
+	background-color: var(--colorgrey4);
 	text-align: center;
 	font-family: var(--font-family);
 	font-size: var(--biggest);
@@ -57,8 +57,8 @@ a:visited:hover {
 }
 
 body {
-	background-color: rgb(235, 235, 240);
-	color: #000000;
+	background-color: var(--colorgrey4);
+	color: var(--colorblack);
 	font-family: var(--font-family);
 	text-align: justify;
 	padding: max(2vmin, 8px);
@@ -66,7 +66,7 @@ body {
 }
 
 hr {
-	border: 2px solid var(--colorgrey1);
+	border: 4px solid var(--colorgrey4);
 	margin: 8px 0px;
 }
 
@@ -83,20 +83,20 @@ iframe {
 
 .section {
 	font-family: var(--font-family);
-	background-color: #ffffff;
+	background-color: #fff;
 	margin: min(2vmin, 8px);
-	padding: min(2vmin, 8px);
+	padding: min(2vmin, 16px);
 }
 
 .section_title {
-	color: var(--color1);
+	color: var(--darkBlue);
     font-size: var(--medium);
 	margin: 16px 0px;
 	font-weight: 600;
 }
 
 .section_text {
-	color: var(--colorblack);
+	color: var(--colorBlack);
     font-size: var(--smallest);
 	margin: 8px 0px;
 	font-weight: 600;
@@ -112,16 +112,17 @@ iframe {
 
 .need_title.main {
 	margin: 16px 0px;
-	color: var(--color1);
+	color: var(--darkRed);
 	font-size: var(--medium);
 }
 
 .need_title {
-	color: var(--color2);
+	color: var(--darkGreen);
 	font-size: var(--small);
 }
 
 .need_value.main {
+	color: var(--lightRed);
 	color: var(--colorblack);
 }
 
@@ -135,7 +136,7 @@ iframe {
 }
 
 .subsection_title {
-	color: var(--color2);
+	color: var(--darkGreen);
 	font-size: var(--small);
 }
 
@@ -151,4 +152,11 @@ iframe {
 	font-family: var(--font-family);
 	font-weight: 600;
 }
-/* https://material.io/design/color/dark-theme.html#properties */
+
+li {
+	padding: 4px; /**/
+}
+
+ol {
+	padding: 0px 16px;
+}
