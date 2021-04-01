@@ -158,5 +158,5 @@ li {
 }
 
 ol {
-	padding: 0px 16px;
+	padding: 0px max(4vmin, 16px);
 }
