@@ -1,7 +1,6 @@
 /* twitter palette */
 :root {
 	--blue: #1DA1F2;
-	--black: #14171A;
 	--gray0: #2f3336;
 	--gray1: #657786;
 	--gray2: #AAB8C2;
@@ -22,22 +21,13 @@ html {
 
 #top {
 	color: var(--gray2);
-	font-size: 12px;
+	font-size: 20px;
 	text-align: center;
-	margin: 12px;
+	margin: 20px;
 }
 
-@media (min-width: 600px) {
-	#top {
-		color: var(--gray2);
-		font-size: 20px;
-		text-align: center;
-		margin: 20px;
-	}
-  }
-
 a {
-	color: var(--gray3);
+	color: var(--gray4);
 	font-family: var(--font-family);
 	font-weight: bold;
 	text-decoration: none;
@@ -61,8 +51,12 @@ a:visited:hover {
 
 /* Body */
 body {
-	color: var(--gray3);
+	color: var(--gray4);
 	font-family: var(--font);
+}
+
+.to_top {
+	display: none; /* Remove to top*/
 }
 
 .media {
@@ -75,45 +69,75 @@ body {
 
 .section {
 	border: 1px solid var(--gray0);
-	margin: auto;
-	padding: 16px;
+	margin: 20px;
 }
 
 .section_title {
 	color: var(--blue);
     font-size: 20px;
-	padding: 0px 16px;
+	margin: inherit;
 }
 
 .section_text {
-	color: var(--gray3);
-    font-size: 16px;
-	margin: 16px;
+	color: var(--gray4);
+    font-size: 15px;
+	margin: inherit;
+}
+
+hr {
+	display: none;
 }
 
 .need {
-	font-family: var(--font);
-	margin: auto;
+	font-size: 14px;
+	font-family: var(--font-family);
+	font-weight: normal;
+	margin: 20px;
+	border: 1px solid var(--gray0);
+	border-radius: 14px;
 }
 
 .need_title {
-	color: var(--color2);
-	font-size: 24px;
-	font-weight: bold;
+	color: var(--blue);
+	font-family: inherit;
+	font-size: inherit;
+	font-weight: inherit;
+	margin: inherit;
 }
 
 .need_value {
-	color: var(--color1);
-	font-size: 16px;
-	padding: 0px 16px;
+	color: var(--gray2);
+	font-family: inherit;
+	font-size: inherit;
+	font-weight: inherit;
+	margin: inherit;
+}
+
+.subsection {
+	font-size: 14px;
+	font-family: var(--font-family);
+	font-weight: normal;
+	margin: 20px;
+	border: 1px solid var(--gray0);
+	border-radius: 14px;
 }
 
 .subsection_title {
-	
+	color: var(--blue);
+	font-family: inherit;
+	font-size: inherit;
+	font-weight: inherit;
+	margin: inherit;
 }
 
-.subsection_value {
-	
+.subsection_text {
+	color: var(--gray2);
+	font-family: inherit;
+	font-size: inherit;
+	font-weight: inherit;
+	margin: inherit;
 }
 
-/* https://material.io/design/color/dark-theme.html#properties */
+li {
+	padding: 4px;
+}
