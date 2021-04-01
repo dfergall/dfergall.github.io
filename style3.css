@@ -138,6 +138,11 @@ hr {
 	margin: inherit;
 }
 
+#Referencias {
+	font-family: var(--font-family);
+	font-size: 15px;
+}
+
 li {
 	padding: 4px;
 }
