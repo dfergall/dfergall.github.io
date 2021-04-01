@@ -132,7 +132,7 @@ iframe {
 }
 
 .subsection {
-	margin: 8px 0px;
+	margin: max(2vmin, 8px) 0px;
 }
 
 .subsection_title {
