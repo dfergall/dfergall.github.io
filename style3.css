@@ -68,7 +68,7 @@ body {
 }
 
 .section {
-	border: 1px solid var(--gray0);
+	border: max(1px, 1vmin) solid var(--gray0);
 	margin: 20px;
 }
 
