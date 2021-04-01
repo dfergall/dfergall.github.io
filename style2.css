@@ -29,7 +29,7 @@ html {
 }
 
 a {
-	color: var(--darkBlue);
+	color: var(--lightBlue);
 	font-family: var(--font-family);
 	font-weight: bold;
 	margin: auto;
@@ -37,7 +37,7 @@ a {
 }
 
 a:hover {
-	color: var(--lightBlue);
+	color: var(--darkBlue);
 }
 
 a:visited {
@@ -89,7 +89,7 @@ iframe {
 }
 
 .section_title {
-	color: var(--darkBlue);
+	color: var(--lightBlue);
     font-size: var(--medium);
 	margin: 16px 0px;
 	font-weight: 600;
@@ -112,22 +112,22 @@ iframe {
 
 .need_title.main {
 	margin: 16px 0px;
-	color: var(--darkRed);
+	color: var(--lightRed);
 	font-size: var(--medium);
 }
 
 .need_title {
-	color: var(--darkGreen);
+	color: var(--lightGreen);
 	font-size: var(--small);
 }
 
 .need_value.main {
-	color: var(--lightRed);
+	color: var(--darkRed);
 	color: var(--colorblack);
 }
 
 .need_value {
-	color: var(--colorblack);
+	color: var(--colorBlack);
 	font-size: var(--smallest);
 }
 
@@ -136,18 +136,18 @@ iframe {
 }
 
 .subsection_title {
-	color: var(--darkGreen);
+	color: var(--lightGreen);
 	font-size: var(--small);
 }
 
 .subsection_text {
-	color: var(--colorblack);
+	color: var(--colorBlack);
 	font-size: var(--smallest);
 	font-weight: 600;
 }
 
 #Referencias {
-	color: var(--coloblack);
+	color: var(--colorBlack);
 	font-size: var(--smallest);
 	font-family: var(--font-family);
 	font-weight: 600;
