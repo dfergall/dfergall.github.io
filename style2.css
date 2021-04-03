@@ -1,15 +1,15 @@
 /* https://developer.apple.com/design/human-interface-guidelines/ios/visual-design/color/ */
 :root {
-	--darkBlue: rgb(0, 54, 221); /* systemBlue */
-	--darkGreen: rgb(36, 138, 61); /* systemGreen */
-	--darkIndigo: rgb(54, 52, 163); /* systemIndigo */
-	--darkRed: rgb(215, 0, 21); /* systemRed */
+	--lightBlue: rgb(0, 54, 221); /* systemBlue */
+	--lightGreen: rgb(36, 138, 61); /* systemGreen */
+	--lightIndigo: rgb(54, 52, 163); /* systemIndigo */
+	--lightRed: rgb(215, 0, 21); /* systemRed */
+	--lightYellow:  rgb(255, 212, 38);/* systemYellow */
+	--darkBlue: rgb(64, 156, 255); /* systemBlue */
+	--darkGreen: rgb(48, 219, 91); /* systemGreen */
+	--darkIndigo: rgb(125, 122, 255); /* systemIndigo */
+	--darkRed: rgb(255, 105, 97); /* systemRed */
 	--darkYellow: rgb(178, 80, 0); /* systemYellow */
-	--lightBlue: rgb(64, 156, 255); /* systemBlue */
-	--lightGreen: rgb(48, 219, 91); /* systemGreen */
-	--lightIndigo: rgb(125, 122, 255); /* systemIndigo */
-	--lightRed: rgb(255, 105, 97); /* systemRed */
-	--lightYellow: rgb(255, 212, 38); /* systemYellow */
 	--colorgrey1: rgb(108, 108, 112);
 	--colorgrey2: rgb(142, 142, 147);
 	--colorgrey3: rgb(174, 174, 178);
