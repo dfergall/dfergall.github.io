@@ -69,11 +69,15 @@ body {
 	padding: 16px;
 	min-width: 50%;
 	min-height: 100%;
+	max-width: 80%;
 }
 
 .section {
 	border: max(1px, 0.3vmin) solid var(--gray0);
 	margin: 20px;
+	display: block;
+	padding: auto;
+	max-width: 768px;
 }
 
 .section_title {
@@ -156,7 +160,7 @@ ol {
 }
 
 iframe {
-	width: min(60vw, 854px); /* 480p */ 
-    height: min(33.75vw, 480px); /* 16:9 */
+	width: min(80vw, 427px); /* 480p */ 
+    height: min(45vmin, 240px); /* 16:9 */
 	margin: auto;
 }
