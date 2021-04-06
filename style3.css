@@ -17,6 +17,8 @@ html {
 	color: var(--gray2);
 	font-family: var(--font-family);
 	font-size: max(5vmin, 12px);
+	max-width: 768px;
+	margin: auto;
 }
 
 #top {
@@ -76,7 +78,6 @@ body {
 	border: max(1px, 0.3vmin) solid var(--gray0);
 	margin: 20px;
 	display: block;
-	padding: auto;
 	max-width: 768px;
 }
 
