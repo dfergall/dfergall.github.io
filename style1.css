@@ -62,7 +62,7 @@ a:hover {
 #top {
 	color: var(--complement0);
 	font-family: var(--font-family);
-	font-size: max(2vmin, 18px);
+	font-size: max(2vmin, 20px);
 	font-style: normal;
 	text-align: justify;
 	padding: 16px;
@@ -71,7 +71,7 @@ a:hover {
 }
 
 #top a {
-	font-size: max(1.3vmin, 18px);
+	font-size: max(2vmin, 20px);;
 }
 
 body {
