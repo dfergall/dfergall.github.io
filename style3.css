@@ -28,7 +28,7 @@ html {
 /* Smartphones & Touchscreens */
 @media (hover: none) and (pointer: coarse) {
 	:root {
-		--font-size-big: min(max(3vmin, 18px), 36px);
+		--font-size-big: min(max(2.5vmin, 18px), 36px);
 		--font-size-medium: min(max(2vmin, 16px), 32px);
 		--font-size-small: min(max(1.3vmin, 12px), 24px);
 	}
@@ -118,7 +118,7 @@ body {
 
 .section_text {
 	color: var(--gray4);
-    font-size: var(--font-size-medium);
+    font-size: var(--font-size-small);
 	margin: 20px;
 }
 
@@ -127,7 +127,7 @@ hr {
 }
 
 .need {
-	font-size: 14px;
+	font-size: var(--font-size-small);
 	font-family: var(--font-family);
 	font-weight: normal;
 	margin: 20px;
@@ -152,7 +152,7 @@ hr {
 }
 
 .subsection {
-	font-size: 14px;
+	font-size: var(--font-size-small);
 	font-family: var(--font-family);
 	font-weight: normal;
 	margin: 20px;
@@ -178,7 +178,7 @@ hr {
 
 #Referencias {
 	font-family: var(--font-family);
-	font-size: 15px;
+	font-size: var(--font-size-small);
 }
 
 li {
