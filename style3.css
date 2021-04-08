@@ -9,7 +9,10 @@
 	--white: #FFFFFF;
 	--black: #000000;
 	--font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
-
+	
+	--font-size-big: min(max(3vmin, 18px), 36px);
+	--font-size-medium: min(max(2vmin, 16px), 32px);
+	--font-size-small: min(max(1.3vmin, 12px), 24px);
 }
 
 html {
@@ -21,15 +24,43 @@ html {
 	margin: auto;
 }
 
+@media (max-aspect-ratio: 1/1) {
+	html { max-width: 100%; }
+}
+
+@media (min-aspect-ratio: 1/1) {
+	html { 
+		max-width: 100vmin; 
+		margin: auto;
+	}
+}
+
+/* Smartphones & Touchscreens */
+@media (hover: none) and (pointer: coarse) {
+    html { max-width: 100%; }
+}
+
+/* Mouse */
+@media (hover: hover) and (pointer: fine) {
+    html { 
+		max-width: 100vmin;
+		margin: auto;
+	}
+}
+
+nav {
+	border: 1px solid #657786;
+}
+
 #top {
 	color: var(--gray2);
-	font-size: 20px;
+	font-size: var(--font-size-big);
 	text-align: center;
 	margin: 20px;
 }
 
 #top a {
-	font-size: 20px;
+	font-size: var(--font-size-big);
 }
 
 a {
@@ -59,6 +90,8 @@ a:visited:hover {
 body {
 	color: var(--gray4);
 	font-family: var(--font);
+	padding: auto;
+	margin: auto;
 }
 
 .to_top {
