@@ -16,6 +16,9 @@
   --lightgrey: #aaa;
   --black: #000;
   --font-family: Arial;
+  --font-size-big: min(max(3vmin, 18px), 36px);
+  --font-size-medium: min(max(2vmin, 16px), 32px);
+  --font-size-small: min(max(1.3vmin, 12px), 24px);
 }
 
 html {
@@ -25,19 +28,20 @@ html {
 nav {
 	color: var(--complement4);
 	font-family: var(--font-family);
-	font-size: max(4vmin, 18px);
+	font-size: var(--font-size-big);
 	font-style: normal;
 	text-align: justify;
 	padding: 16px;
 	text-align: center;
 	margin: 16px;
+	width: 100vmin;
 }
 
 
 a {
 	color: var(--complement0);
 	font-family: var(--font-family);
-	font-size: max(1.3vmin, 12px);
+	font-size: var(--font-size-small);
 	font-weight: normal;
 	margin: auto;
 	width: 50%;
@@ -62,7 +66,7 @@ a:hover {
 #top {
 	color: var(--complement0);
 	font-family: var(--font-family);
-	font-size: max(2vmin, 18px);
+	font-size: var(--font-size-big);
 	font-style: normal;
 	text-align: justify;
 	padding: 16px;
@@ -71,7 +75,7 @@ a:hover {
 }
 
 #top a {
-	font-size: max(1.3vmin, 18px);
+	font-size: var(--font-size-big);
 }
 
 body {
@@ -92,13 +96,14 @@ body {
 .section {
 	font-family: var(--font-family);
 	background-color: var(--white);
-	margin: 2vmin;
-	padding: 2vmin;
+	margin: auto;
+	
+	padding: auto;
 }
 
 .section_title {
 	color: var(--primary4);
-	font-size: max(2vmin, 18px);
+	font-size: var(--font-size-medium);
 	font-style: normal;
 	text-align: center;
 	font-weight: bold;
@@ -109,7 +114,7 @@ body {
 
 .section_text {
 	color: var(--primary4);
-    font-size: max(1.3vmin, 12px);
+    font-size: var(--font-size-small);
 	margin: max(4vmin, 8px) 0px;
 	border: min(2px, 4vmin) solid var(--primary4);
 	border-spacing: 16px;
@@ -126,7 +131,7 @@ body {
 
 .need_title.main {
 	color: var(--complement4);
-	font-size: max(1.3vmin, 12px);
+	font-size: var(--font-size-medium);
 	font-style: normal;
 	text-align: left;
 	font-weight: bold;
@@ -135,7 +140,7 @@ body {
 
 .need_title {
 	color: var(--complement4);
-	font-size: max(1.3vmin, 12px);
+	font-size: var(--font-size-small);
 	font-style: normal;
 	font-weight: bold;
 	text-align: left;
@@ -145,7 +150,7 @@ body {
 
 .need_value.main {
 	color: var(--complement4);
-	font-size: max(1.3vmin, 12px);
+	font-size: var(--font-size-small);
 	font-style: normal;
 	font-weight: bold;
 	text-align: justify;
@@ -154,7 +159,7 @@ body {
 
 .need_value {
 	color: var(--complement4);
-	font-size: max(1.3vmin, 12px);
+	font-size: var(--font-size-small);
 	font-style: normal;
 	text-align: justify;
 	border-spacing: 16px;
@@ -188,14 +193,14 @@ img {
 
 .subsection_title {
 	color: var(--complement4);
-	font-size: max(1.3vmin, 12px);
+	font-size: var(--font-size-small);
 	font-style: normal;
 	text-align: justify;
 }
 
 .subsection_text {
 	color: var(--complement4);
-	font-size: max(1.3vmin, 12px);
+	font-size: var(--font-size-small);
 	font-style: normal;
 	text-align: justify;
 	border-spacing: 16px;
@@ -203,14 +208,14 @@ img {
 
 #Referencias {
 	color: var(--primary4);
-	font-size: max(1.3vmin, 12px);
+	font-size: var(--font-size-small);
 	font-style: normal;
 	text-align: left;
 	padding: 2vmin;
 }
 
 #Referencias a {
-	font-size: max(1.3vmin, 12px);
+	font-size: var(--font-size-small);
 	font-weight: bold;
 }
 

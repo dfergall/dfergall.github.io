@@ -62,7 +62,7 @@ a:visited:hover {
 
 body {
 	background-color: var(--colorgrey4);
-	color: var(--colorblack);
+	color: var(--colorBlack);
 	font-family: var(--font-family);
 	text-align: justify;
 	padding: max(2vmin, 8px);
@@ -127,7 +127,7 @@ iframe {
 
 .need_value.main {
 	color: var(--darkRed);
-	color: var(--colorblack);
+	color: var(--colorBlack);
 }
 
 .need_value {
