@@ -9,10 +9,6 @@
 	--white: #FFFFFF;
 	--black: #000000;
 	--font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
-	
-	--font-size-big: min(max(3vmin, 18px), 36px);
-	--font-size-medium: min(max(2vmin, 16px), 32px);
-	--font-size-small: min(max(1.3vmin, 12px), 24px);
 }
 
 html {
@@ -28,8 +24,8 @@ html {
 /* Smartphones & Touchscreens */
 @media (hover: none) and (pointer: coarse) {
 	:root {
-		--font-size-big: min(max(2.5vmin, 18px), 36px);
-		--font-size-medium: min(max(2vmin, 16px), 32px);
+		--font-size-big: min(max(2.3vmin, 18px), 36px);
+		--font-size-medium: min(max(1.8vmin, 15px), 32px);
 		--font-size-small: min(max(1.3vmin, 12px), 24px);
 	}
 	html { max-width: 100%; }
@@ -43,7 +39,7 @@ html {
 	}
 	:root {
 		--font-size-big: 18px;
-		--font-size-medium: 16px;
+		--font-size-medium: 15px;
 		--font-size-small: 12px;
 	}
 }
